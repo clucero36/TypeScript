@@ -1,7 +1,7 @@
 
 type UserTitle = 'admin' | 'contributor' | 'user';
 
-interface User {
+type User = {
   name: string,
   age: number,
   occupation: string,
@@ -44,7 +44,6 @@ function getContributors(array: User[]) {
 
   return contributors;
 }
-
 
 console.log(getAdminUser(userArray));
 console.log(getContributors(userArray));

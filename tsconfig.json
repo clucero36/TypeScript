@@ -1,5 +1,9 @@
 {
-  "compilerOptions": {
-      "lib": ["es6", "dom"]
-    }
+     "compilerOptions": {
+        "noImplicitAny": false,     
+        "noEmitOnError": true,     
+        "removeComments": false,    
+        "sourceMap": true,     
+        "target": "es2015",   
+     }
 }
